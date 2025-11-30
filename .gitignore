@@ -1,0 +1,16 @@
+*.pyc
+~$*
+*/.ipynb_checkpoints*
+.env
+.vscode
+tests/01_internal_tests
+tests/8*
+tests/9*
+tests/xx*
+*/__pycache__
+result_*.docx
+result_*.pptx
+result_*.pdf
+dist/
+*.egg-info/
+Internal.md
