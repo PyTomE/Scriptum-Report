@@ -38,7 +38,7 @@ def _image_task(rdf) -> object:
 def test_image_value_temperatures_dimensions(monkeypatch: pytest.MonkeyPatch, workspace: Path) -> None:
     """Existing images are loaded and expose their dimensions."""
 
-    target_image = workspace / "data" / "result1a.png"
+    target_image = workspace / "data" / "camera.png"
     assert target_image.exists(), "sample image must be available for the test"
 
     class DummyImage:
@@ -59,7 +59,7 @@ def test_image_value_temperatures_dimensions(monkeypatch: pytest.MonkeyPatch, wo
             "*documenttype=docx",
             "*datadir=./data",
             "section:figures",
-            ".image:preview=file:result1a.png",
+            ".image:preview=file:camera.png",
         ],
     )
 
@@ -100,7 +100,7 @@ def test_image_value_missing_file_returns_placeholder(
 def test_image_value_propagates_open_errors(monkeypatch: pytest.MonkeyPatch, workspace: Path) -> None:
     """Failures from ``Image.open`` bubble up for the caller to handle."""
 
-    target_image = workspace / "data" / "result1b.png"
+    target_image = workspace / "data" / "camera.png"
     assert target_image.exists(), "sample image must be available for the test"
 
     def raising_open(filename: str) -> None:
@@ -116,7 +116,7 @@ def test_image_value_propagates_open_errors(monkeypatch: pytest.MonkeyPatch, wor
             "*documenttype=docx",
             "*datadir=./data",
             "section:figures",
-            ".image:preview=file:result1b.png",
+            ".image:preview=file:camera.png",
         ],
     )
 

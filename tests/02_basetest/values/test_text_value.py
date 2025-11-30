@@ -34,7 +34,7 @@ def test_text_value_temperatures_existing_file(monkeypatch: pytest.MonkeyPatch, 
             "*documenttype=docx",
             "*datadir=./data",
             "section:content",
-            ".text:description=file:title.txt",
+            ".text:description=file:dolor.txt",
         ],
     )
 
@@ -42,7 +42,7 @@ def test_text_value_temperatures_existing_file(monkeypatch: pytest.MonkeyPatch, 
     task = next(t for t in rdf.tasks if t.target == "text:description")
     task.value.load()
 
-    with Path(DATA_SOURCE / "title.txt").open() as stream:
+    with Path(DATA_SOURCE / "dolor.txt").open() as stream:
         expected = "\n".join(stream.readlines())
     assert task.value.content == expected
 

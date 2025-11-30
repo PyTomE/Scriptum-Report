@@ -16,7 +16,7 @@ section:title
 .report:Designer_Name='Mr. X'
 .report:Menu=parfile:SomeParameters.nv:MenuTitle
 .Image:MainModel=file:pudding.jpg
-.text:description=file:title.txt
+.text:description=file:dolor.txt
 .date:creation=date:now
 .author='Thomas'
 

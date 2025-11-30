@@ -108,6 +108,7 @@ def test_details_on_huge_rdf(monkeypatch: MonkeyPatch, tmp_path: Path):
         'data/instruction2.csv', 
         'data/plate1.png', 
         'data/plate1.txt', 
+        'data/bc1.png',
         'data/some.png', 
         'data/some.txt', 
         'data/tools.csv', 
