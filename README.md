@@ -49,4 +49,4 @@ please see [`LICENSES/Commercial.md`](LICENSES/Commercial.md).
 See [`documentation`](docs/Intro.md) and other files in that folder.
 
 For a start, take the examples found on https://github.com/PyTomE/Scriptum-Report
-in the folders unter `tests`
+in the folders of `tests`
