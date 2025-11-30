@@ -21,6 +21,10 @@ for details on
  * python-pptx see https://python-pptx.readthedocs.io
  * openxml by Microsoft see http://officeopenxml.com/
 
+### Source
+
+see https://github.com/PyTomE/Scriptum-Report
+
 ### Install
 
 pip install Scriptum-Report
@@ -43,3 +47,6 @@ please see [`LICENSES/Commercial.md`](LICENSES/Commercial.md).
 ### Further reading
 
 See [`documentation`](docs/Intro.md) and other files in that folder.
+
+For a start, take the examples found on https://github.com/PyTomE/Scriptum-Report
+in the folders unter `tests`

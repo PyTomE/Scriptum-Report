@@ -1,0 +1,12 @@
+Pudding tasting under micro-gravity
+Test ID;Objective;Procedure;Pass Criteria
+T01;Assess ease of opening pudding container in microgravity;"Crew member retrieves sealed pudding cup from stowage, opens it slowly in front of camera";No free-floating blobs larger than 1 cm and crew rates opening difficulty <= 3 on 1–5 scale
+T02;Evaluate spoon handling and portion control;"Crew scoops standard bites (approx. 5 g) and moves spoon from cup to mouth 10 times";At least 9 of 10 spoon transfers successful without visible free-floating droplets
+T03;Evaluate taste perception vs. Earth baseline;"Each crew member tastes three spoonfuls and rates flavor, sweetness, creaminess";Average overall acceptance rating >= 4 on 1–5 scale
+T04;Assess mouthfeel and texture perception in microgravity;"Crew takes two normal bites and one larger bite, focusing on texture and afterfeel";Majority of crew describes texture as acceptable and controlled graininess
+T05;Measure crumb and droplet behavior with toppings;"Crew applies topping, stirs gently for 30 s, then eats 5 bites";No more than 3 particles larger than 2 mm observed floating after 60 s
+T06;Assess packaging suitability for repeated small servings;"Crew opens pouch, dispenses 5 small servings over 30 min, resealing between servings";No leaks detected and convenience rating >= 4 on 1–5 scale
+T07;Evaluate compatibility with scheduled activities and workload;"Crew consumes pudding during a standard work block break (<=10 min)";Pudding consumed within 10 min without delays in follow up tasks
+T08;Assess hydration and satiety perception;"Crew eats 1 serving and reports satiety and thirst at 0, 30, and 90 minutes";No significant digestive discomfort and average satiety rating >= 3 at 90 min
+T09;Test cleaning effort and residue behavior;"Crew intentionally leaves minor residue in cup and on spoon, then follows standard cleaning protocol";Cup and spoon visually clean within 3 min and standard resource usage
+T10;Overall acceptability and menu inclusion decision;"Crew samples favorite flavor, completes global evaluation on taste, handling, messiness, mood effect";Average global acceptability score >= 4 on 1–5 scale and majority prefers to keep pudding on menu
